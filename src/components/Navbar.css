@@ -1,0 +1,60 @@
+.search {
+  width: 40rem !important;
+
+}
+
+.logo {
+  width: 200px;
+
+}
+
+.icon1{
+    background-color: white;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon2{
+    background-color: white;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cart{
+    height: 35px;
+    width: 20px;
+}
+
+.navbar-main{
+    background-color: #DF0000 !important;
+    padding: 0 2rem !important;
+    
+}
+
+@media screen and (max-width: 768px){
+    .search{
+        width: 15rem !important;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .search{
+        width: 20rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 415px){
+    .search{
+        width: 200px !important;
+    }
+    
+}
