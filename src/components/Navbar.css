@@ -1,11 +1,11 @@
 .search {
-  width: 30rem !important;
+  width: 40rem !important;
 
 }
 
 .logo {
   width: 200px;
-  height: auto;
+
 }
 
 .icon1{
@@ -26,6 +26,17 @@
     text-align: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.cart{
+    height: 35px;
+    width: 20px;
+}
+
+.navbar-main{
+    background-color: #DF0000 !important;
+    padding: 0 2rem !important;
+    
 }
 
 @media screen and (max-width: 768px){

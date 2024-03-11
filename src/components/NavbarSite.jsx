@@ -8,52 +8,56 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../assets/img/anglay-logo-white.png";
 import { FaUser } from "react-icons/fa";
 import { IoMdCart } from "react-icons/io";
+import { FaSearch } from "react-icons/fa";
 
 import "./Navbar.css";
+import { FormControl } from "react-bootstrap";
 const NavbarSite = () => {
   return (
     <>
-      <Navbar expand="lg" className="bg-danger w-100">
+      <Navbar expand="lg" className="navbar-main">
         <Container fluid>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <div className="d-flex flex-column w-100">
-              <div className="border border-2 border-info w-auto  d-flex flex-wrap align-items-center justify-content-between">
-                <div className="border border-2 border-info">
+              <div className=" w-auto  d-flex flex-wrap align-items-center justify-content-between">
+                <div className="">
                   <img className="logo" src={logo} alt="" />
                 </div>
                 <div className="">
-                  <Form className="d-flex gap-4">
+                  <Form className="d-flex gap-3">
+                 
                     <Form.Control
                       type="search"
                       placeholder="Search"
                       className="search"
                       aria-label="Search"
+                   
                     />
+                    
                     <Button variant="outline-success bg-light">Search</Button>
                   </Form>
                 </div>
                 <div className="">
-                  <div className="gap-2 d-flex">
+                  <div className="d-flex gap-3 ">
                     <div className="icon1 ">
                       <FaUser  />
                     </div>
                     <div className="icon2">
-                    <IoMdCart  />
+                    <IoMdCart className="cart" />
                     </div>
                     
                   </div>
                 </div>
               </div>
-              <div>
+              <div >
                 <Nav
-                  className="me-auto my-2 my-lg-0"
+                  className="me-auto my-2 my-lg-0 "
                   style={{ maxHeight: "200px", height: "100px" }}
                   navbarScroll
                 >
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">Link</Nav.Link>
-                  <NavDropdown title="Link" id="navbarScrollingDropdown">
+                  
+                  <NavDropdown title="Tüm Kategoriler" id="navbarScrollingDropdown">
                     <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                     <NavDropdown.Item href="#action4">
                       Another action
@@ -63,9 +67,9 @@ const NavbarSite = () => {
                       Something else here
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#" disabled>
-                    Link
-                  </Nav.Link>
+                  <Nav.Link href="#action1">En çok Satanlar</Nav.Link>
+                  <Nav.Link href="#action2">Fırsat Ürünleri</Nav.Link>
+                 
                 </Nav>
               </div>
             </div>
