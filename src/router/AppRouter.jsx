@@ -17,9 +17,9 @@ const AppRouter = () => {
         <Route path='/' element={<Home/>}/>
         <Route path='/telefon' element={<Telefon/>}/>
         <Route path='/tv' element={<Tv/>}/>
-        <Route path='/bilgisayar' element={<Bilgisayar/>}/>
-        <Route path='/beyaz-esya' element={<BeyazEsya/>}/>
-        <Route path='/ev-aletleri' element={<EvAletleri/>}/>
+        <Route path='/bilgisayar' element={<Bilgisayar />}/>
+        <Route path='/beyazesya' element={<BeyazEsya/>}/>
+        <Route path='/evaletleri' element={<EvAletleri/>}/>
         <Route path='/contact' element={<Contact/>}/>
 
 
