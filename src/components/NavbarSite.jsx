@@ -15,7 +15,7 @@ import { FormControl } from "react-bootstrap";
 const NavbarSite = () => {
   return (
     <>
-      <Navbar expand="lg" className="navbar-main deneme">
+      <Navbar expand="lg" className="navbar-main">
         <Container fluid>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
