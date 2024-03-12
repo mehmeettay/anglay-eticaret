@@ -9,6 +9,7 @@ import BeyazEsya from './products/BeyazEsya';
 import EvAletleri from './products/EvAletleri';
 import Bilgisayar from './products/Bilgisayar';
 import Contact from './pages/Contact';
+import Slider from './pages/Slider';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/beyaz-esya' element={<BeyazEsya/>}/>
         <Route path='/ev-aletleri' element={<EvAletleri/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/slider' element={<Slider/>}/>
 
 
       </Routes>
