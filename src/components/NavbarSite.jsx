@@ -21,7 +21,7 @@ const NavbarSite = () => {
 
   return (
     <>
-      <Navbar expand="lg" className="navbar-main deneme  pl-5">
+
         <Container fluid>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">

@@ -1,3 +1,4 @@
+
 import React from "react";
 import productReducer from "../features/productSlice";
 import { configureStore } from "@reduxjs/toolkit";
@@ -10,3 +11,5 @@ const store = configureStore({
 });
 
 export default store;
+
+
