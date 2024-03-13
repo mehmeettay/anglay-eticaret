@@ -36,7 +36,7 @@ const NavbarSite = () => {
                     type="text"
                     placeholder="Aramak istediğiniz kelimeyi giriniz..."
                   />
-                  <IoSearch className="search-icon" />
+                  <IoSearch className="search-icon" /> 
                 </div>
 
                 <div className="">
