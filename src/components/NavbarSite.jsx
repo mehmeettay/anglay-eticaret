@@ -91,22 +91,14 @@ const NavbarSite = () => {
                       </NavDropdown>
                     </div>
                     <div>
-                      <button
-                        type="button"
-                        className="btn btn-outline-light mh-25px"
-                      >
-                        En çok Satanlar
-                      </button>
+                    <button type="button" class="btn btn-outline-light mh-25px">En çok Satanlar</button>
                     </div>
                     <div>
-                      <button type="button" className="btn btn-outline-light">
-                        Fırsat Ürünleri
-                      </button>
+                      
+                      <button type="button" class="btn btn-outline-light">Fırsat Ürünleri</button>
                     </div>
                     <div>
-                      <button type="button" className="btn btn-outline-light">
-                        Kampanyalar
-                      </button>
+                    <button type="button" class="btn btn-outline-light">Kampanyalar</button>
                     </div>
                   </div>
                 </Nav>
