@@ -1,11 +1,16 @@
-import React from 'react'
-import Slider from '../pages/Slider'
+import React, { useEffect } from 'react'
+import useProductsCalls from '../hooks/useProductsCalls'
 
 const Home = () => {
+  const {getProducts}=useProductsCalls()
+  useEffect(() => {
+    
+  getProducts()
+   
+  }, [])
+  
   return (
-    <>
-    Home
-    </>
+    <div>Home</div>
   )
 }
 
