@@ -6,9 +6,12 @@ import { FaHeart } from "react-icons/fa";
 import { GoGitCompare } from "react-icons/go";
 const BilgisayarCard = () => {
   return (
-    <Card style={{ width: "15rem" }}>
-      <Card.Img variant="top" src={macbook} />
-      <button className="btn btn-outline-success w-auto">Quick View</button>
+    <Card style={{ width: "15rem" }} className="card">
+      <Card.Img className="img" variant="top" src={macbook} />
+      <div className="quick-view-container">
+        <button className="btn btn-success w-auto">Quick View</button>
+      </div>
+
       <Card.Body>
         <Card.Title>APPLE MacBook Pro 16 inc M3</Card.Title>
         <Card.Text>Some quick example text to build on the...</Card.Text>
@@ -27,15 +30,18 @@ const BilgisayarCard = () => {
             Ad to Cart
           </button>
         </div>
-        <div className="border border-1 border-success d-flex flex-row align-items-center justify-content-center mt-2 " role="button">
-          <div  className="me-2">
+        <div
+          className="border border-1 border-success d-flex flex-row align-items-center justify-content-center mt-2  "
+          role="button"
+        >
+          <div className="me-2">
             <FaHeart className="me-2" /> wishlist |
           </div>
-        
+
           <div>
-            <GoGitCompare className="me-2" />compare
+            <GoGitCompare className="me-2" />
+            compare
           </div>
-        
         </div>
       </Card.Body>
     </Card>
