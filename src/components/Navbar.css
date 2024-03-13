@@ -5,6 +5,7 @@
 
 .logo {
   width: 200px;
+  cursor: pointer;
 
 }
 
@@ -34,17 +35,42 @@
 }
 
 .navbar-main{
-    background-color: #DF0000 !important;
-    padding: 0 2rem !important;
-    
+    /*background-color: #DF0000 !important;*/
+    background-color: #8702ca !important;
+    padding: 0 2rem 0 !important;
+   
+}
+.nav-dropdown {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+   
+     
 }
 
+
+
+.nav-dropdown:hover,
+.nav-dropdown.active { 
+    background-color: #ffffff; 
+    color: #000000; 
+    border-radius: 5px;
+}
+.nav-dropdown .dropdown-item:focus,
+.nav-dropdown .dropdown-item.active {
+    outline: none; /* Tıklanan öğenin vurgu rengini kaldırır */
+    background-color: #f8f9fa; /* Tıklanan öğenin arkaplan rengini değiştirir */
+    color: #8702ca; /* Tıklanan öğenin metin rengini değiştirir */
+}
+
+
+
+/*
 @media screen and (max-width: 768px){
     .search{
         width: 15rem !important;
     }
     
-}
+}*/
 @media screen and (max-width: 1200px){
     .search{
         width: 20rem !important;

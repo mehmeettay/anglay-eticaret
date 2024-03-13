@@ -9,6 +9,7 @@ function App() {
       <AppRouter />
       <ToastContainer />
     </Provider>
+
   );
 }
 
