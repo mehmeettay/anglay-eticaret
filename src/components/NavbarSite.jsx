@@ -21,7 +21,7 @@ const NavbarSite = () => {
 
   return (
     <>
-      <Navbar expand="lg" className="navbar-main deneme  pl-5">
+      <Navbar className="navbar-main">
         <Container fluid>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -36,16 +36,16 @@ const NavbarSite = () => {
                     type="text"
                     placeholder="Aramak istediğiniz kelimeyi giriniz..."
                   />
-                  <IoSearch className="search-icon" /> 
+                  <IoSearch className="search-icon" />
                 </div>
 
                 <div className="">
                   <div className="d-flex gap-3 ">
-                  <div className="icon1 ">
-                  <IoMdNotificationsOutline className="notification" />
+                    <div className="icon1 ">
+                      <IoMdNotificationsOutline className="notification" />
                     </div>
                     <div className="icon1 ">
-                      <FaUser  className="user"/>
+                      <FaUser className="user" />
                     </div>
                     <div className="icon2">
                       <IoMdCart className="cart" />
@@ -91,14 +91,22 @@ const NavbarSite = () => {
                       </NavDropdown>
                     </div>
                     <div>
-                    <button type="button" class="btn btn-outline-light mh-25px">En çok Satanlar</button>
+                      <button
+                        type="button"
+                        class="btn btn-outline-light mh-25px"
+                      >
+                        En çok Satanlar
+                      </button>
                     </div>
                     <div>
-                      
-                      <button type="button" class="btn btn-outline-light">Fırsat Ürünleri</button>
+                      <button type="button" class="btn btn-outline-light">
+                        Fırsat Ürünleri
+                      </button>
                     </div>
                     <div>
-                    <button type="button" class="btn btn-outline-light">Kampanyalar</button>
+                      <button type="button" class="btn btn-outline-light">
+                        Kampanyalar
+                      </button>
                     </div>
                   </div>
                 </Nav>
